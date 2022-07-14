@@ -1,0 +1,26 @@
+* {
+    border: 2px solid black;
+}
+.nav {
+    /* background-color: blue; */
+    height: 3rem;
+}
+.left {
+    /* background-color: crimson; */
+    height: 33rem;
+}
+.right {
+    /* background-color: chartreuse; */
+    height: 33rem;
+}
+
+.foot {
+    /* background-color: darksalmon; */
+    height: 3rem;
+}
+
+
+
+
+
+
