@@ -18,37 +18,6 @@
     /* background-color: darksalmon; */
     height: 3rem;
 }
-breakpoints
- /* Small devices (landscape phones, 576px and up) */
- @media only screen and (min-width: 576px) {
-    .nav {
-      background-color: red;
-    } 
-  }
-   /* Medium devices (tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-    .left {
-      background-color: hotpink;
-    }
-  }
-   /* Large devices (desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-    .right {
-      background-color: purple;
-    }
-  }
-   /* X-Large devices (large desktops, 1200px and up) */
-  @media only screen and (min-width: 1200px) {
-    .foot {
-      background-color: blue;
-    }
-  }
-   /* XX-Large devices (larger desktops, 1400px and up) */
-  @media only screen and (min-width: 1400px) {
-    .nav {
-      background-color: gold;
-    }
-  }
 
 
 
