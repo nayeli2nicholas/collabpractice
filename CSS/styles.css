@@ -2,31 +2,28 @@
     border: 2px solid black;
 }
 .nav {
-    background-color: blue;
+    /* background-color: blue; */
     height: 3rem;
 }
 .left {
-    background-color: crimson;
+    /* background-color: crimson; */
     height: 33rem;
 }
 .right {
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     height: 33rem;
 }
-.col-12-footer {
-    background-color: darkmagenta;
+
+.foot {
+    /* background-color: darksalmon; */
     height: 3rem;
 }
-.foot {
-    background-color: darksalmon;
-    height: 5rem;
-}
-/* breakpoints */
+breakpoints
  /* Small devices (landscape phones, 576px and up) */
  @media only screen and (min-width: 576px) {
     .nav {
       background-color: red;
-    }
+    } 
   }
    /* Medium devices (tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
