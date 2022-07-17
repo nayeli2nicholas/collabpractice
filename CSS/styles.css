@@ -1,23 +1,319 @@
-* {
-    border: 2px solid black;
+html {
+    font-size: 16px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: 15px; */
+    /* margin-left: 15px; */
 }
 .nav {
-    /* background-color: blue; */
     height: 3rem;
 }
 .left {
-    /* background-color: crimson; */
     height: 33rem;
 }
 .right {
-    /* background-color: chartreuse; */
     height: 33rem;
 }
 
 .foot {
-    /* background-color: darksalmon; */
     height: 3rem;
 }
+
+.jumbo {
+    height: 20rem;
+    border: 5px solid gold;
+    margin: 20px 0 20px 0;
+    background-image: url(./images/pexels-pixabay-2150.jpg);
+
+}
+
+h1 {
+  
+   font-size: 5rem;
+   color: white;
+}
+
+.section-left {
+    height: 22rem;
+    background-color: blue;
+    border: 5px solid black;
+}
+
+p {
+    font-size: 2rem;
+   
+}
+
+.righty {
+    height: 7rem;
+    background-color: coral;
+    border: 5px solid black;
+    margin: 10px 0 10px 0;
+}
+
+.middle {
+    height: 7rem;
+    background-color: darkolivegreen;
+    border: 5px solid black;
+    margin: 10px 0 10px 0;
+}
+
+.bottom {
+    height: 7rem;
+    background-color: gold;
+    border: 5px solid black;
+    margin: 10px 0 10px 0;
+}
+
+.left-bottom {
+    height: 15rem;
+    background-color: royalblue;
+    border: 5px solid black;
+    margin: 10px 0 10px 0;
+}
+
+
+.right-bottom-1 {
+    height: 7rem;
+    background-color: olivedrab;
+    border: 5px solid black;
+    margin: 10px 0 10px 0;
+}
+
+.right-bottom-2 {
+    height: 7rem;
+    background-color: gold;
+    border: 5px solid black;
+    margin: 10px 0 10px 0;
+}
+
+.foot-2 {
+    height: 5rem;
+    background-color: hotpink;
+    border: 5px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    height: 4rem;
+    border: 5px solid black;
+    width: 90%;
+    margin: auto;
+    background-color: red;
+    
+}
+
+.btn:hover {
+    background-color: red;
+    background-color: blue;
+    color: white;
+}
+
+/* breakpoints */
+ /* Small devices (landscape phones, 576px and up) */
+ @media only screen and (min-width: 360px) {
+    h1{
+     font-size: .75rem ;
+      }
+     p {
+    font-size: .75rem;
+    }
+    .jumbo {
+        height: 10rem;  
+    }
+    .section-left {
+        height: 12rem;
+    }
+    .righty, .middle, .bottom {
+        height: 4rem;
+    }
+    .left-bottom {
+        height: 10rem;
+    }
+    .right-bottom-1, .right-bottom-2 {
+        height: 3rem;
+    }
+    .foot-2 {
+        height: 3rem;
+    }.btn {
+        height: 2rem;
+    }
+
+ 
+ }
+  
+   /* Medium devices (tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .jumbo {
+        height: 15rem;
+    }
+    .section-left {
+        height: 16rem;
+    }
+    .righty, .middle, .bottom {
+        height: 5rem;
+    }
+    .left-bottom {
+        height: 12rem;
+    }
+    .right-bottom-1, .right-bottom-2 {
+        height: 5rem;
+    }
+    .foot-2 {
+        height: 3rem;
+    }
+    .btn {
+        height: 2rem;
+    }
+    
+  }
+  
+   /* Large devices (desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    h1 {
+      font-size: 3rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    .jumbo {
+        height: 20rem;
+  }
+  .section-left {
+    height: 22rem;
+  }
+  .righty, .middle, .bottom {
+    height: 7rem;
+}
+.left-bottom {
+    height: 15rem;
+}
+.right-bottom-1, .right-bottom-2 {
+    height: 7rem;
+}
+.foot-2 {
+    height: 5rem;
+}
+.btn {
+    height: 4rem;
+}
+  }
+   /* X-Large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+    p {
+        font-size: 1.75rem;
+    }
+    .jumbo {
+        height: 23rem;
+  }
+  .section-left {
+    height: 24rem;
+  }
+  .righty .middle .bottom {
+    height: 8rem;
+  }
+  .left-bottom {
+    height: 17rem;
+  }
+  .right-bottom-1, .right-bottom-2 {
+    height: 9rem;
+}
+.foot-2 {
+    height: 7rem;
+}
+.btn {
+    height: 5rem;
+}
+} 
+   /* XX-Large devices (larger desktops, 1400px and up) */
+  @media only screen and (min-width: 1400px) {
+    h1 {
+      font-size: 7rem;
+    }
+    p {
+        font: 3rem
+    }
+    .jumbo {
+        height: 25rem;
+  }
+  .section-left {
+    height: 26rem ;
+  }
+  .righty .middle .bottom {
+    height: 9rem;
+}
+.left {
+    height: 18rem;
+}
+.right-bottom-1, .right-bottom-2 {
+    height: 11rem;
+}
+.foot-2 {
+    height: 9rem;
+}
+.btn {
+    height: 7rem;
+}
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
